@@ -1,0 +1,8 @@
+-- GET TOP 3 LOYAL CUSTOMERS
+
+USE sql_store;
+
+SELECT *
+FROM customers
+ORDER BY points DESC
+LIMIT 3; 
